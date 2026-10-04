@@ -1,0 +1,35 @@
+{
+  "name": "html-page-title",
+  "version": "1.0.0",
+  "description": "Page title component that renders HTML (e.g. responsive spans) instead of escaped text.",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    },
+    "./components": {
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "quartz": {
+    "name": "html-page-title",
+    "displayName": "HTML Page Title",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "components": {
+      "HtmlPageTitle": {
+        "displayName": "HTML Page Title",
+        "defaultPosition": "left",
+        "defaultPriority": 10
+      }
+    }
+  }
+}
